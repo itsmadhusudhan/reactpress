@@ -1,0 +1,42 @@
+{
+  "name": "reactpress",
+  "version": "0.1.0",
+  "description": "Minimalist static site generator based on react",
+  "main": "index.js",
+  "bin": {
+    "reactpress": "bin/reactpress.js"
+  },
+  "repository": "https://github.com/itsmadhusudhan/reactpress.git",
+  "keywords": [
+    "staticsite",
+    "documentation",
+    "blog",
+    "react",
+    "generator"
+  ],
+  "author": "Madhusudhan R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmadhusudhan/reactpress/issues"
+  },
+  "homepage": "https://github.com/itsmadhusudhan/reactpress#readme.md",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "markdown-it": "^8.4.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.16.5"
+  },
+  "browserslist": [
+    ">1%"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
