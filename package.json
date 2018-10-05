@@ -1,0 +1,28 @@
+{
+  "name": "press-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "watch": {
+    "start": "node ./parser"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/parser",
+    "yaml": "node ./bin/yamlreader",
+    "watch": "npm-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "front-matter": "^2.3.0",
+    "gray-matter": "^4.0.1",
+    "markdown-it": "^8.4.2",
+    "npm-watch": "^0.4.0",
+    "read-yaml": "^1.1.0",
+    "toml": "^2.3.3",
+    "yaml-js": "^0.2.3",
+    "yaml-reader": "^0.4.0"
+  }
+}
